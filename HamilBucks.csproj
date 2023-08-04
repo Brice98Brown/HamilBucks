@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="HamilServer\" />
+    <Folder Include="HamilClient\" />
   </ItemGroup>
 
 </Project>
