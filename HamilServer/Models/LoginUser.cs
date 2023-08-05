@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace HamilBucks.HamilServer.Models
 {
-    public class ReturnUser
+    public class LoginUser
     {
-        public int UserId { get; set; }
         public string Username { get; set; }
+        public string Password { get; set; }
     }
 }
