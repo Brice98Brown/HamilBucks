@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HamilBucks.HamilServer.DAO
 {
-    internal class AcountDAO
+    public class AcountDAO
     {
     }
 }
