@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HamilBucks.HamilClient.Data
 {
-    internal class TransferModel
+    public class TransferModel
     {
     }
 }

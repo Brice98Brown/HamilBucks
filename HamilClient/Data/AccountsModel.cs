@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HamilBucks.HamilClient.Data
 {
-    internal class AccountsModel
+    public class AccountsModel
     {
     }
 }
