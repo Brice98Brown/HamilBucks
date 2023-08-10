@@ -8,5 +8,6 @@ namespace HamilBucks.HamilClient.Data
 {
     public class AccountsModel
     {
+
     }
 }
