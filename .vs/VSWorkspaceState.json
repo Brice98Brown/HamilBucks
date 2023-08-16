@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\HamilClient"
+    "\\HamilClient",
+    "\\HamilClient\\Data"
   ],
-  "SelectedNode": "\\HamilClient\\Data",
+  "SelectedNode": "\\HamilClient\\Data\\AccountsModel.cs",
   "PreviewInSolutionExplorer": false
 }
