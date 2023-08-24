@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HamilBucks.HamilServer.Controllers
 {
+    [Route("api/[controller]")]
+    [ApiController]
     public class AccountsController
     {
     }
