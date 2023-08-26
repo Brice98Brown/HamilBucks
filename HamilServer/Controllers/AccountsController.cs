@@ -12,5 +12,6 @@ namespace HamilBucks.HamilServer.Controllers
     [ApiController]
     public class AccountsController
     {
+
     }
 }
