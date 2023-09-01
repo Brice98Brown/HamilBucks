@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using HamilBucks.HamilServer.DAO;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,10 @@ namespace HamilBucks.HamilServer.Controllers
     [ApiController]
     public class LoginController
     {
+        private readonly IUserDAO userDAO;
+        public LoginController( IUserDAO userDAO)
+        {
+            this.userDAO = userDAO;
+        }
     }
 }
