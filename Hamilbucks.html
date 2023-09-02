@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form id="payment-form">
+      <fieldset class="buyer-inputs">
+        <input
+          type="text"
+          autocomplete="recipiant-id"
+          aria-required="true"
+          aria-label="Recipiant Id"
+          required="required"
+          placeholder="Recipiant Id"
+          name="recipiantId"
+          spellcheck="false"
+        />
+
+        <input
+          type="text"
+          autocomplete="transaction-amount"
+          required="required"
+          placeholder="Transaction Amount"
+          name="transactionamount"
+          spellcheck="false"
+        />
+      </fieldset>
+      <div id="card-container"></div>
+      <button id="card-button" type="button">Pay</button>
+    </form>
+    <div id="payment-status-container"></div>
+  </body>
+</html>
