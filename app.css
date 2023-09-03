@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #payment-form {
+    max-width: 550px;
+    min-width: 300px;
+    margin: 150px auto;
+  }
+  
+  .buyer-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #card-container {
+    margin-top: 45px;
+    min-height: 90px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    #card-container {
+      min-height: 140px;
+    }
+  }
+  #customer-input {
+    margin-bottom: 40px;
+  }
+  
+  input {
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  button {
+    color: #ffffff;
+    background-color: #006aff;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+    user-select: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 1px;
+  }
+  
