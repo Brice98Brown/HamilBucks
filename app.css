@@ -12,7 +12,7 @@
     margin: 150px auto;
   }
   
-  .buyer-inputs {
+  #Balance {
     display: flex;
     gap: 20px;
     justify-content: space-between;
