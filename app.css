@@ -20,7 +20,18 @@
     margin: 0;
     padding: 0;
   }
-  
+  #next-page{
+    justify-content: right;
+    font-size: 12px;
+    padding: 10px 24px;
+    width: 25%;
+  }
+  #previous-page{
+    justify-content: left;
+    font-size: 12px;
+    padding: 10px 24px;
+    width: 25%;
+  }
   #card-container {
     margin-top: 45px;
     min-height: 90px;
