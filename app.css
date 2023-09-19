@@ -32,6 +32,9 @@
     padding: 10px 24px;
     width: 25%;
   }
+  #card-button {
+    width: 25%;
+  }
   #card-container {
     margin-top: 45px;
     min-height: 90px;
