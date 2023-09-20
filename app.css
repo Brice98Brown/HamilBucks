@@ -21,13 +21,11 @@
     padding: 0;
   }
   #next-page{
-    justify-content: right;
     font-size: 12px;
     padding: 10px 24px;
     width: 25%;
   }
   #previous-page{
-    justify-content: left;
     font-size: 12px;
     padding: 10px 24px;
     width: 25%;
@@ -72,5 +70,10 @@
     padding: 12px;
     width: 100%;
     box-shadow: 1px;
+    border-radius: 20%/50%;
   }
-  
+  .button-array{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+  }
