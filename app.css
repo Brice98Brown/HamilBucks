@@ -25,6 +25,10 @@
     padding: 10px 24px;
     width: 25%;
   }
+  .buyer-inputs{
+    display: flex;
+    justify-content:center;
+  }
   #previous-page{
     font-size: 12px;
     padding: 10px 24px;
@@ -46,7 +50,6 @@
   #customer-input {
     margin-bottom: 40px;
   }
-  
   input {
     padding: 12px;
     width: 50%;
@@ -55,6 +58,7 @@
     margin-top: 20px;
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.15);
+    
   }
   button {
     color: #ffffff;
