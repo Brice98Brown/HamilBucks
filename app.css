@@ -27,7 +27,8 @@
   }
   .buyer-inputs{
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    justify-content: center;
   }
   #previous-page{
     font-size: 12px;
