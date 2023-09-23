@@ -15,7 +15,7 @@
   #Balance {
     display: flex;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
     border: none;
     margin: 0;
     padding: 0;
