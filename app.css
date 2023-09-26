@@ -60,6 +60,14 @@
   #customer-input {
     margin-bottom: 40px;
   }
+  #sortby{
+    display: flex;
+    justify-content: right;
+  }
+  #sortbyDD{
+    display: flex;
+    justify-content: right;
+  }
   input {
     padding: 12px;
     width: 50%;
