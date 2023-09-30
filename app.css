@@ -11,7 +11,12 @@
     min-width: 300px;
     margin: 150px auto;
   }
-  
+  #Cash-out {
+    width: 25%;
+  }
+  #Add-Cash {
+    width: 25%;
+  }
   #Balance {
     display: flex;
     gap: 20px;
