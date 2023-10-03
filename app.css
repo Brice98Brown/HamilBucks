@@ -5,7 +5,9 @@
   body {
     font-family: Arial, sans-serif;
   }
-  
+  select{
+    float: right;
+}
   #payment-form {
     max-width: 550px;
     min-width: 300px;
