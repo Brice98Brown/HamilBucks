@@ -80,6 +80,10 @@
     display: flex;
     justify-content: right;
   }
+  .remember{
+    display: flex;
+    justify-content: right;
+  }
   #sortbyDD{
     display: flex;
     justify-content: right;
