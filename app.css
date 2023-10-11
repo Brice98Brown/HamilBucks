@@ -20,6 +20,13 @@
     display: flex;
     justify-content: Center;
   }
+  label {
+    color: #666;
+    font-size: .875rem;
+  }
+  #login-form {
+    max-width: 300px;
+  }
   #Add-Cash {
     width: 25%;
   }
@@ -97,6 +104,10 @@
     font-size: 16px;
     border: 1px solid rgba(0, 0, 0, 0.15);
     
+  }
+  input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
   }
   button {
     color: #ffffff;
