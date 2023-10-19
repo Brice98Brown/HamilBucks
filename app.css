@@ -15,7 +15,9 @@
     
   }
   .login{
-    text-align:center
+    display: flex;
+    justify-content: Center;
+    align-items: center;
   }
   #Cash-out {
     width: 25%;
