@@ -18,6 +18,7 @@
     display: flex;
     justify-content: Center;
     align-items: center;
+    padding-top: 30px;
   }
   #Cash-out {
     width: 25%;
