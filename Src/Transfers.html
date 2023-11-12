@@ -4,13 +4,39 @@
 <html>
 <body>
     <form id="payment-form">
-        <fieldset class="login">
-          <b>Transactions</b>
-          Date Time Recipient
-          
-        
-        </fieldset>
-        
+          <div class="history-container">
+            <div class="header">
+              <h2>HamiBucks</h2>
+            </div>
+            <div>
+              <div class="balances">
+                <div class="account-balance">
+                  <span class="label">Current</span>
+                  <span class="dots"></span>
+                  <span class="amount">$0</span>
+                </div>
+                <div class="account-balance">
+                  <span class="label">Available</span>
+                  <span class="dots"></span>
+                  <span class="amount">$0</span>
+                </div>
+              </div>
+              <div class="transactions">
+                <h3>Recent Activity</h3>
+                <table>
+                  <tbody>
+                    <tr class="transaction-row">
+                      <td class="transaction-date">01/01/2018</td>
+                      <td>Recipient</td>
+                      <td class="transaction-amount">$0</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="footer">
+            </div>
+          </div>
         </form>
 </body>
 </html>
